@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동영상배경, 헤더고정</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <script src="https://kit.fontawesome.com/eaeb383721.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div id="header_wrap">
+        <header>
+            <h1 class="logo">
+                <a href="#">
+                    <span class="logo01">HOTEL</span>
+                    <span class="logo02">ILLUA</span>
+                </a>
+            </h1>
+            <nav class="menu_conatainer">
+                <ul id="menu">
+                    <li><a href="#">ROOMS</a></li>
+                    <li><a href="#">OFFERS</a></li>
+                    <li><a href="#">DINING & BAR</a></li>
+                    <li><a href="#">FACILITIES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+            <div class="search_conatainer">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></i></a>
+            </div>
+            <div class="resevation_conatainer">
+                <a href="#">resevation</a>
+            </div>
+            <a href="#" class="m_menuBtn">
+                <span class="m_menuBtn_line1"></span>
+                <span class="m_menuBtn_line2"></span>
+            </a>
+        </header>
+    </div>
+    <main>
+        <div class="main_full">
+            <section class="main_visual">
+                <video loop autoplay muted playsinline poster="media/main-poster.png">
+                    <source src="media/main1.mp4" type="video/mp4">
+                    이 브라우저에서는 동영상 기능을 지원하지 않습니다.
+                </video>
+                <div class="main_text_contatiner">
+                    <p class="main_text">조용하고 프라이빗한 호텔</p>
+                    <div class="main_text_resevation">
+                        <a href="#">RESERVATION</a>
+                    </div>
+                </div>
+            </section>  
+            <section class="con1">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown <br>printer took a galley of type and scrambled it to make a <br>type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, <br>remaining essentially unchanged. It was popularised in <br>the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br><br>
+                <img src="https://via.placeholder.com/550x150" alt="">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown <br>printer took a galley of <br>type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the <br>leap into electronic typesetting, remaining essentially unchanged. It was popularised <br>in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>    <br><br>
+            </section>
+            <section class="con2">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br>dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled <br>it to make a type specimen book. It has survived not only five centuries, but</p><br><br>
+                <ul>
+                    <li>Lorem Ipsum is simply dummy</li>
+                    <li>containing Lorem Ipsum passages</li>
+                    <li>text of the printing</li>
+                    <li>electronic typesetting</li>
+                    <li>essentially</li>
+                </ul><br><br>
+                <p>also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <br>with the release of Letraset sheets containing Lorem Ipsum passages, and more recently <br>with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br><br>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
